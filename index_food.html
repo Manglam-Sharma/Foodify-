@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Ordering Website</title>
+    <link rel="stylesheet" href="styles_food.css">
+</head>
+<body>
+<div class="sidebar">
+    <!--name-->
+    <h1> Foodify</h1>
+
+    <!--sidebar menus-->
+    <div class="sidebar-menu">
+        <a href="#"><ion-icon name="storefront-outline"></ion-icon>Home</a>
+        <a href="#"><ion-icon name="receipt-outline"></ion-icon>Bills</a>
+        <a href="#"><ion-icon name="wallet-outline"></ion-icon>Wallet</a>
+        <a href="#"><ion-icon name="notifications-outline"></ion-icon>Notifications</a>
+        <a href="#"><ion-icon name="chatbubbles-outline"></ion-icon>Contact Us</a>
+        <a href="#"><ion-icon name="settings-outline"></ion-icon>Settings</a>
+    </div>
+    <div class="sidebar-logout">
+    <a href="#"><ion-icon name="log-out-outline"></ion-icon>Logout</a>
+    </div>
+</div>
+<div class="main">
+    <div class="main-navbar">
+        <ion-icon class="menu-toggle" name="menu-outline"></ion-icon>
+        <div class="search">
+            <input type="text" placeholder="What Do You Want To Eat ?"> 
+            <button class="serach-btn">Search</button>
+        </div>
+        <!--profile icon-->
+        <div class="profile">
+            <a class="cart" href="#"><ion-icon name="cart-outline" ></ion-icon></a>
+            <a class="user" href="#"><ion-icon name="person-outline" ></ion-icon></a>
+
+        </div>
+    </div>
+    <div class="main-highlight">
+        <!--tittle section and arrow-->
+        <div class="main-header">
+            <h2 class="main-title">Recommendations</h2>
+            <div class="main-arrow">
+                <ion-icon class="back" name="chevron-back-circle-outline"></ion-icon>
+                <ion-icon class="next" name="chevron-forward-circle-outline"></ion-icon>
+            </div>
+        </div>
+
+        <!-- highlight menu -->
+
+    <div class="highlight-wrapper">
+
+        <div class="highlight-card">
+            <img class="highlight-img" src="food_ord/burger.jpeg">
+             <div class="highlight-desc">
+             <h4>Burger</h4>
+             <p>Rs 180</p>
+            </div>
+         </div>
+         <div class="highlight-card">
+            <img class="highlight-img" src="food_ord/ice-cream.jpeg">
+             <div class="highlight-desc">
+             <h4>Ice-cream</h4>
+             <p>Rs 80</p>
+            </div>
+         </div>
+         <div class="highlight-card">
+            <img class="highlight-img" src="food_ord/Cold-Coffee.jpg">
+             <div class="highlight-desc">
+             <h4> Cold Coffee</h4>
+             <p>Rs 120</p>
+            </div>
+         </div>
+         <div class="highlight-card">
+            <img class="highlight-img" src="food_ord/soup.jpg">
+             <div class="highlight-desc">
+             <h4>Tomato Soup</h4>
+             <p>Rs 80</p>
+            </div>
+         </div>
+    </div>
+</div>
+<div class="main-detail">
+    <h2 class="main-tittle">Choose Order</h2>
+    <div class="detail-wrapper">
+        <div class="detail-card">
+            <img class="detail-image"  src="food_ord/veg1.jpeg" alt="">
+            <div class="detail-desc">
+                <div class="detail-name">
+                    <h4>Dal Makhni</h4>
+                    <p class="price">Rs 190 </p>
+                </div>
+                <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+            </div>
+           
+        </div>
+
+        <div class="detail-card">
+            <img class="detail-image"  src="food_ord/veg2.jpeg" alt="">
+            <div class="detail-desc">
+                <div class="detail-name">
+                    <h4>Kdhai Paneer</h4>
+                    <p class="price">Rs 220 </p>
+                </div>
+                <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+            </div>
+           
+        </div>
+
+        <div class="detail-card">
+            <img class="detail-image"  src="food_ord/veg3.jpeg" alt="">
+            <div class="detail-desc">
+                <div class="detail-name">
+                    <h4>Masala Dosa</h4>
+                    <p class="price">Rs 150 </p>
+                </div>
+                <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+            </div>
+           
+        </div>
+
+        <div class="detail-card">
+            <img class="detail-image"  src="food_ord/pizza.jpeg" alt="">
+            <div class="detail-desc">
+                <div class="detail-name">
+                    <h4>Farmhouse pizza</h4>
+                    <p class="price">Rs 280 </p>
+                </div>
+                <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+            </div>
+           
+        </div>
+
+        <div class="detail-card">
+            <img class="detail-image"  src="food_ord/nonveg1.jpg" alt="">
+            <div class="detail-desc">
+                <div class="detail-name">
+                    <h4>Chicken Tikka Kebab</h4>
+                    <p class="price">Rs 300 </p>
+                </div>
+                <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+            </div>
+           
+        </div>
+
+        <div class="detail-card">
+            <img class="detail-image"  src="food_ord/nonveg2.jpeg" alt="">
+            <div class="detail-desc">
+                <div class="detail-name">
+                    <h4>Butter Chicken</h4>
+                    <p class="price">Rs 350 </p>
+                </div>
+                <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+            </div>
+           
+        </div>
+
+        <div class="detail-card">
+            <img class="detail-image"  src="food_ord/nonveg3.jpg" alt="">
+            <div class="detail-desc">
+                <div class="detail-name">
+                    <h4>Chicken Biryani</h4>
+                    <p class="price">Rs 370 </p>
+                </div>
+                <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+            </div>
+           
+        </div>
+
+        <div class="detail-card">
+            <img class="detail-image"  src="food_ord/White-Sauce-Pasta-2-4-1200x1800.jpg" alt="">
+            <div class="detail-desc">
+                <div class="detail-name">
+                    <h4>White Sauce Pasta</h4>
+                    <p class="price">Rs 240 </p>
+                </div>
+                <ion-icon class="detail-favourites" name="bookmark-outline"></ion-icon>
+            </div>
+           
+        </div>
+
+    </div>
+</div>
+   
+
+
+
+</div>
+</div>
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="script_food.js"></script>
+</html>
